@@ -1,0 +1,323 @@
+@font-face {
+    font-family: peralta;
+    src: url(./peralta.ttf);
+}
+body{
+    background-color: #ffda6a;
+    overflow-y: hidden;
+}
+
+main{
+    display: flex;
+    height: 94vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome{
+    font-family: peralta, Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    left: 70px;
+    z-index: 99;
+}
+
+.rosto{
+    background-color: #fecba1;
+    height: 600px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: 2px 8px 12px black;
+}
+
+
+
+/* OLHO */
+
+.olho_esquerdo{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    top: 216px;
+    right: -102px;
+    box-shadow: 2px 10px 12px black;
+}
+
+.olho_direito{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    top: 66px;
+    right: -301px;
+    box-shadow: 2px 10px 12px black;
+}
+
+.pupila_esquerda{
+    background-color: #331904;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+    top: 141px;
+    right: -134px;
+}
+
+.pupila_direita{
+    background-color: #331904;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+    top: -9px;
+    right: -316px;
+}
+
+
+/* NARIZ E BOCA */
+
+.nariz{
+    background-color: #feb272;
+    height: 65px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+    top: 59px;
+    right: -196px;
+    box-shadow: 1px 5px 10px rgb(95, 92, 92);
+}
+
+.boca{
+    background-color: black;
+    height: 5px;
+    width: 100px;
+    z-index: 2;
+    position: relative;
+    top: 122px;
+    right: -196px;
+}
+
+
+
+/* DENTE */
+
+.dente_esquerdo{
+    background-color: white;
+    height: 24px;
+    width: 20px;
+    z-index: 2;
+    position: relative;
+    top: 122px;
+    right: -223px;
+}
+
+.dente_direito{
+    background-color: white;
+    height: 24px;
+    width: 20px;
+    z-index: 2;
+    position: relative;
+    top: 98px;
+    right: -249px;
+}
+
+
+
+/* SOBRANCELHA */
+
+.sobrancelha_esquerda{
+    background-color: black;
+    height: 9px;
+    width: 100px;
+    z-index: 2;
+    position: relative;
+    top: -202px;
+    right: -98px;
+}
+
+.sobrancelha_direita1{
+    background-color: black;
+    height: 9px;
+    width: 58px;
+    z-index: 2;
+    position: relative;
+    top: -211px;
+    right: -304px;
+}
+
+.sobrancelha_direita2{
+    background-color: black;
+    height: 9px;
+    width: 9px;
+    z-index: 2;
+    position: relative;
+    top: -220px;
+    right: -366px;
+}
+
+.sobrancelha_direita3{
+    background-color: black;
+    height: 9px;
+    width: 8px;
+    z-index: 2;
+    position: relative;
+    top: -229px;
+    right: -379px;
+}
+
+.sobrancelha_direita4{
+    background-color: black;
+    height: 9px;
+    width: 20px;
+    z-index: 2;
+    position: relative;
+    top: -238px;
+    right: -391px;
+}
+
+
+
+/* CABELO */
+
+.cabelo1{
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #331904;
+
+    z-index: 2;
+    position: relative;
+    top: -500px;
+    right: -192px;
+}
+
+.cabelo2{
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #331904;
+
+    z-index: 2;
+    position: relative;
+    top: -600px;
+    right: -99px;
+}
+
+.cabelo3{
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #331904;
+
+    z-index: 2;
+    position: relative;
+    top: -700px;
+    right: -279px;
+}
+
+.cabelo4{
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #331904;
+
+    z-index: 2;
+    position: relative;
+    top: -802px;
+    right: -140px;
+}
+
+.cabelo5{
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #331904;
+
+    z-index: 2;
+    position: relative;
+    top: -900px;
+    right: -238px;
+}
+
+
+
+/* ORELHA */
+
+.orelha_esquerda{
+    background-color: #feb272;
+    height: 200px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: -1;
+    position: relative;
+    top: -752px;
+    right: 56px;
+    box-shadow: -1px 0 10px black;
+}
+
+.orelha_direita{
+    background-color: #feb272;
+    height: 200px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: -1;
+    position: relative;
+    top: -950px;
+    right: -460px;
+    box-shadow: 1px 0 10px black;
+}
+
+
+
+/* BRINCO */
+
+.brinco_vertical{
+    background-color: gray;
+    height: 92px;
+    width: 8px;
+    z-index: 2;
+    position: relative;
+    top: -962px;
+    right: 12px;
+}
+
+.brinco_horizontal{
+    background-color: gray;
+    height: 6px;
+    width: 59px;
+    z-index: 2;
+    position: relative;
+    top: -1027px;
+    right: 37px;
+}
+
+
+
+/* CORPO */
+
+.corpo{
+    background-color: #d63384;
+    height: 800px;
+    width: 830px;
+    border-radius: 50%;
+
+    position: relative;
+    z-index: -1;
+    top: -897px;
+    right: 153px;
+    box-shadow: 0 -4px 10px black;
+}
